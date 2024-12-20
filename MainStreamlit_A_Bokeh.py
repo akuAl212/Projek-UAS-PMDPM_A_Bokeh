@@ -4,7 +4,7 @@ import numpy as np
 from tensorflow.keras.models import load_model
 from PIL import Image
 
-model = load_model('BestModel_Mobilenet_Bokeh.h5')
+model = load_model(r'BestModel_Mobilenet_Bokeh.h5')
 class_names = ['Beras Hitam', 'Beras Merah', 'Beras Putih']
 
 def classify_image(image_path):
